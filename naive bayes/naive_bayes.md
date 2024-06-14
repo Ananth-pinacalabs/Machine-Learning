@@ -120,7 +120,11 @@ To avoid this pseaudo counts are added to all each word in histogram such that t
 <br>
 <br>
 <p align ="center">
+<<<<<<< HEAD:naive bayes/naive_bayes.md
 <img src = "../images/pseudo-counts.png" style = "width:400"></img>
+=======
+<img src = "images/pseudo-counts.png" style = "width:400;"></img>
+>>>>>>> 8e1272bd1ee802e62eecc2d64fe65eddaa0f910a:naive_bayes.md
 </p>
 <p align = "center"> 
 <i>img: adding pseudocounts<i>
@@ -137,7 +141,11 @@ Also we need to re-calculate the likelihoods of all the words and the prior prob
 <br>
 <br>
 <p align ="center">
+<<<<<<< HEAD:naive bayes/naive_bayes.md
 <img src = "../images/recalculating-probabilities.png" style = "width:400"></img>
+=======
+<img src = "images/recalculating-probabilities.png" style = "width:400;"></img>
+>>>>>>> 8e1272bd1ee802e62eecc2d64fe65eddaa0f910a:naive_bayes.md
 </p>
 <p align = "center"> 
 <i>img: Recalculating probabilities.<i>
