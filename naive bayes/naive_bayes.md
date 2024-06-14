@@ -9,7 +9,7 @@ You create the conditional probabilities by creating word histograms.
 <br>
 
 <p align = "center">
-<img src = "images/word_histograms.png"></img></p>
+<img src = "../images/word_histograms.png"></img></p>
 <p align = "center"><i>img: Word Histograms</i></p>
 <br>
 <br>
@@ -17,7 +17,7 @@ You create the conditional probabilities by creating word histograms.
 
 
 <p align = "center">
-<img src = "images/calculating-likelihoods.png" style = "width: 400;"></img></p>
+<img src = "../images/calculating-likelihoods.png" style = "width: 400;"></img></p>
 <p align = "center"><i>img: Calculting likelihoods</i></p>
 <br>
 <br>
@@ -120,7 +120,7 @@ To avoid this pseaudo counts are added to all each word in histogram such that t
 <br>
 <br>
 <p align ="center">
-<img src = "images/pseudo-counts.png" style = "width:400"></img>
+<img src = "../images/pseudo-counts.png" style = "width:400"></img>
 </p>
 <p align = "center"> 
 <i>img: adding pseudocounts<i>
@@ -137,7 +137,7 @@ Also we need to re-calculate the likelihoods of all the words and the prior prob
 <br>
 <br>
 <p align ="center">
-<img src = "images/recalculating-probabilities.png" style = "width:400"></img>
+<img src = "../images/recalculating-probabilities.png" style = "width:400"></img>
 </p>
 <p align = "center"> 
 <i>img: Recalculating probabilities.<i>
