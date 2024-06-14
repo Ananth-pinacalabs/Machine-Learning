@@ -1,6 +1,6 @@
-<h1>Naive bayes</h1>
+<h1 align = "center"><b>Naive bayes</b></h1>
 
-<a href = "https://www.youtube.com/watch?v=O2L2Uv9pdDA" > StatQuest Naive Bayes, Clearly Explained!!!</a>
+<p align = "center"><a href = "https://www.youtube.com/watch?v=O2L2Uv9pdDA" > StatQuest Naive Bayes, Clearly Explained!!!</a> </p>
 
 Imagine you are building a spam filter to classify the mails  in your inbox. You have a initial set of mail in which some  are Spam some are not. 
 You can find the conditional probabilities of the occurernce of words given that the mail is spam or not, which forms your knowledge base. You use this infomation to predict if mail is spam or not in the furture. 
@@ -8,16 +8,17 @@ You can find the conditional probabilities of the occurernce of words given that
 You create the conditional probabilities by creating word histograms.
 <br>
 
+<p align = "center">
+<img src = "images/word_histograms.png"></img></p>
+<p align = "center"><i>img: Word Histograms</i></p>
+<br>
+<br>
 
-![image histogram](images/word_histograms.png)
-<br>
-img: Word Histograms
-<br>
-<br>
 
-![calculating likelihoods](images/calculating-likelihoods.png)
-<br>
-img: Calculting likelihoods
+
+<p align = "center">
+<img src = "images/calculating-likelihoods.png" style = "width: 400;"></img></p>
+<p align = "center"><i>img: Calculting likelihoods</i></p>
 <br>
 <br>
 
@@ -121,11 +122,6 @@ To avoid this pseaudo counts are added to all each word in histogram such that t
 <p align ="center">
 <img src = "images/pseudo-counts.png" style = "width:400"></img>
 </p>
-
-
-
-
-
 <p align = "center"> 
 <i>img: adding pseudocounts<i>
 </p>
@@ -138,16 +134,19 @@ here we set the `alpha =  1.`
 This does  not change our initial guess of P(Normal message) which still remains to be. This does'nt change the number of messages in the inbox. 
 
 Also we need to re-calculate the likelihoods of all the words and the prior probability of the message being spam or not.
-
-
-![recalculating the probabilies for lunch money money money](images/recalculating-probabilities.png)
-<br>
-img: Recalculating probabilities.
 <br>
 <br>
+<p align ="center">
+<img src = "images/recalculating-probabilities.png" style = "width:400"></img>
+</p>
+<p align = "center"> 
+<i>img: Recalculating probabilities.<i>
+</p>
 
 
 Now you can note that the problem is fixed. 
+<br>
+<br>
 
 
 
