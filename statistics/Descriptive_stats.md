@@ -15,11 +15,13 @@ The average of all the values.Found by  diving the sum of all the values in the 
 
 *formula for finding mean -*
 
+
 $$
 
 \text{Mean} = \frac{\text{Sum of all the observations in the data}}{\text{Count of observations in the data}}
 
 $$
+
 <br>
 <br>
 
@@ -60,7 +62,8 @@ The most frequent value in the  dataset. This is more commonly used for `discret
 *Does not make sence when it comes to continuous variables.*
 
 
-### **Weighted Mean** - Each data observation is multiplied by  before computing the mean. 
+### **Weighted Mean** - 
+Each data observation is multiplied by  before computing the mean. 
 
 $$\
 \text{Weighted mean} = \frac{1}{N} \sum_{i=1}^{N} x_i * w_i
@@ -107,6 +110,7 @@ One downside is that this is in squared units.
 
 ### **Mean Absolute Difference**
 
+this
 
 ### **Standard Deviation**
 This brings gives the squred root of varience. It present the measure of spread in the same units as the data point. 
@@ -118,7 +122,9 @@ $$
 $$
 <br>
 <br>
+
 **Sample Standard Deviation**
+
 <br>
 
 $$
@@ -138,6 +144,8 @@ example you can not compare the std of say the salary and years of experience.
 $$
  \text{cv} = \frac{\text{standard deviation}} {\text{mean}} * 100 
 $$
+<br>
+<br>
 
 
 This is a unit less value that is represented as a percentage, that tells  you close the  std is to your mean.
